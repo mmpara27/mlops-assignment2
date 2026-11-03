@@ -59,6 +59,4 @@ Use a Python 3.11 or 3.12 virtual environment. Place athletes.csv in data/.
 python -m pip install -r requirements.txt
 python -m mlflow run . --env-manager=local -P data=data/athletes.csv
 ```
-# mlops_assignment_2
-# mlops-assignment2
-# mlops-assignment2
+
