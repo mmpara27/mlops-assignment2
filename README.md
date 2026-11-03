@@ -38,7 +38,7 @@ The residual plots demonstrate a distinct negative trend for higher actual value
 4. Configuration Differences:
 The v2 configurations (incorporating BMI, weight/height ratio, and age squared) show slightly lower Mean Absolute Error (MAE) compared to their v1 counterparts, indicating that these engineered features provide helpful non-linear signals. The shallower H1 models (max_depth=6) performed slightly better on the test set than the deeper H2 models, suggesting that the deeper trees may have slightly overfit the training data.
 
-![Predictions and residuals](results/predictions_residuals.png)
+![Predictions and residuals](predictions_residuals.png)
 
 This is an exploratory comparison on one shared test split. A new holdout is needed after selecting a model. Self-reported values and filters limit generalization.
 
