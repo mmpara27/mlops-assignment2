@@ -1,0 +1,6 @@
+name: athletes-feature-store
+entry_points:
+  main:
+    parameters:
+      data: {type: path, default: data/athletes.csv}
+    command: "python pipeline.py --data {data}"
