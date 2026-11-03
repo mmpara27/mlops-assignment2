@@ -50,7 +50,7 @@ This is an exploratory comparison on one shared test split. A new holdout is nee
 
 Lowest estimated carbon: v1_h1. Estimates cover fitting and prediction only, excluding cleaning, store setup, plotting, and installation. Host country assumed: USA; location unverified. Shared Colab hardware and short measurements make these estimates noisy.
 
-![Comparison](results/comparison.png)
+![Comparison](comparison.png)
 
 ## Run locally
 Use a Python 3.11 or 3.12 virtual environment. Place athletes.csv in data/.
