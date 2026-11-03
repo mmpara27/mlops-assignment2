@@ -1,5 +1,7 @@
 # Athletes Feature Store + ML Pipeline
 
+Submission issue: when submitting this assignment, files had to be manually uploaded due to git errors.
+
 ## 1. ML pipeline
 MLflow Projects runs cleaning, feature creation, retrieval, training, and comparisons. MLflow logs a parent run and four child experiments.
 
@@ -52,11 +54,4 @@ Lowest estimated carbon: v1_h1. Estimates cover fitting and prediction only, exc
 
 ![Comparison](comparison.png)
 
-## Run locally
-Use a Python 3.11 or 3.12 virtual environment. Place athletes.csv in data/.
-
-```bash
-python -m pip install -r requirements.txt
-python -m mlflow run . --env-manager=local -P data=data/athletes.csv
-```
 
