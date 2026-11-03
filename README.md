@@ -33,7 +33,7 @@ However, as deadlift weights exceed 500 lb, all models significantly underpredic
 High deadlift values (e.g., above 600 lb) are severely underpredicted across all configurations. This behavior is expected from Random Forest models, which cannot predict outside the range of the training target values and tend to predict towards the mean near the boundaries.
 
 3. Residual Spread and Bias:
-The residual plots demonstrate a distinct negative trend for higher actual values. This downward slope indicates systematic bias at the extremes: overprediction of very low deadlifts and severe underprediction of very high deadlifts.
+Residuals are calculated as actual minus predicted deadlift weight. Positive residuals indicate underprediction, while negative residuals indicate overprediction. All four models show large errors at the extremes, particularly underprediction of very high deadlifts. The horizontal axis shows predicted weight.
 
 4. Configuration Differences:
 The v2 configurations (incorporating BMI, weight/height ratio, and age squared) show slightly lower Mean Absolute Error (MAE) compared to their v1 counterparts, indicating that these engineered features provide helpful non-linear signals. The shallower H1 models (max_depth=6) performed slightly better on the test set than the deeper H2 models, suggesting that the deeper trees may have slightly overfit the training data.
