@@ -1,6 +1,6 @@
 # Athletes Feature Store + ML Pipeline
 
-Submission issue: when submitting this assignment, files had to be manually uploaded due to git errors.
+Submission note: Git errors prevented me from pushing the files, so I uploaded them manually instead.
 
 ## 1. ML pipeline
 MLflow Projects runs cleaning, feature creation, retrieval, training, and comparisons. MLflow logs a parent run and four child experiments.
