@@ -61,3 +61,4 @@ python -m mlflow run . --env-manager=local -P data=data/athletes.csv
 ```
 # mlops_assignment_2
 # mlops-assignment2
+# mlops-assignment2
